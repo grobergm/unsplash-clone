@@ -21,7 +21,14 @@ nav{
     }
   }
 }
-
+#mobile-icons{
+  display:none;
+  font-size:30px;
+  margin:15px 0;
+}
+#home{
+  color:black;
+}
 #submit-photo{
   border:1px solid $text-gray;
   border-radius:5px;
@@ -41,12 +48,17 @@ nav{
   }
 }
 
-.upper-nav , .lower-nav{
+#main-nav , .lower-nav, #mobile-icons{
   @include flex-center;
   padding-bottom:10px;
 }
 
-#unsplash-icon{
+.lower-nav{
+  width:1300px;
+  overflow-x:hidden;
+}
+
+#unsplash-icon {
   height:64px;
   width:64px;
 }

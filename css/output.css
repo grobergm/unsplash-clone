@@ -32,6 +32,16 @@ nav input:hover {
   border: 1px solid #999;
 }
 
+#mobile-icons {
+  display: none;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+#home {
+  color: black;
+}
+
 #submit-photo {
   border: 1px solid #999;
   border-radius: 5px;
@@ -51,11 +61,16 @@ nav input:hover {
   background-color: #39ac69;
 }
 
-.upper-nav, .lower-nav {
+#main-nav, .lower-nav, #mobile-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 10px;
+}
+
+.lower-nav {
+  width: 1300px;
+  overflow-x: hidden;
 }
 
 #unsplash-icon {
@@ -128,6 +143,20 @@ nav input:hover {
   margin: 1.25vw;
 }
 
+body {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+#mobile-icons {
+  display: none;
+}
+
+@media screen and (max-width: 1091px) {
+  #sub-title {
+    display: none;
+  }
+}
 @media screen and (max-width: 991px) {
   .featured-wrapper {
     max-height: 700vw;
@@ -135,8 +164,20 @@ nav input:hover {
   .featured-wrapper img {
     width: 47vw;
   }
+
+  #submit-photo, #title {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
+  #main-nav {
+    display: none;
+  }
+
+  #mobile-icons {
+    display: flex;
+  }
+
   .featured-wrapper {
     max-height: none;
     margin: 0;
@@ -145,10 +186,6 @@ nav input:hover {
     margin: 1.5vw 0 0 0;
     width: 100vw;
   }
-}
-body {
-  font-size: 15px;
-  font-family: Helvetica;
 }
 
 /*# sourceMappingURL=output.css.map */
