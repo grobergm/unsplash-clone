@@ -33,7 +33,7 @@ background-color: rgba(0, 0, 0, 0.5);
   position:absolute;
   bottom:10%;
   left:15%;
-  color:#fff;
+  color:$white;
   z-index:1;
   h1{
     font-size:46px;
@@ -50,8 +50,11 @@ background-color: rgba(0, 0, 0, 0.5);
     width:70vw;
     height:50px;
     border-radius:5px;
+    font-size:18px;
+    padding-left:15px;
   }
   #trending{
+    font-size:15px;
     margin-top:30px;
   }
 }

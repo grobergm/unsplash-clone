@@ -1,0 +1,41 @@
+nav{
+  position:fixed;
+  z-index:2;
+  background-color:$white;
+  width:100%;
+  a{
+    color:$gray;
+    &:hover{
+      color:black;
+    }
+  }
+  input{
+    width:25vw;
+    height:40px;
+    background-color: $gray;
+    border-radius:25px;
+    border-style:hidden;
+    padding-left:10px;
+    &:hover{
+      border:1px solid gray;
+    }
+  }
+}
+
+#submit-photo{
+  background-color:black;
+  height:40px;
+  border:1px solid $gray;
+  border-radius:5px;
+  padding-left:10px;
+}
+
+.upper-nav , .lower-nav{
+  @include flex-center;
+  padding-bottom:10px;
+}
+
+#unsplash-icon{
+  height:64px;
+  width:64px;
+}
