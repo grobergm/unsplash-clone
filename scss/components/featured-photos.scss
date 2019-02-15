@@ -2,14 +2,11 @@
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
-  justify-content:space-between;
-  align-items:flex-start;
-  margin:2vw;
+  align-content:space-around;
+  max-height:300vw;
+  margin-top: 3vw;
   img{
     width:30vw;
+    margin:1.25vw;
   }
-}
-
-.featured-photo{
-  align-self:flex-start;
 }
