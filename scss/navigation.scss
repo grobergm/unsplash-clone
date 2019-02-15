@@ -1,0 +1,32 @@
+nav{
+  position:fixed;
+  z-index:2;
+  background-color:white;
+  a{
+    color:gray;
+    &:hover{
+      color:black;
+    }
+  }
+  input{
+    width:25vw;
+    height:40px;
+    border:2px solid lightgray;
+    border-radius:20px;
+    padding-left:10px
+  }
+}
+
+.upper-nav{
+  @include flex-center;
+}
+
+.lower-nav{
+    @include flex-center;
+    padding-bottom:10px;
+}
+
+#unsplash-icon{
+  height:64px;
+  width:64px;
+}
