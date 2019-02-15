@@ -67,7 +67,7 @@ nav input:hover {
   background-image: url("../imgs/photo-of-day.jpg");
   background-size: cover;
   background-position: center top;
-  height: 542px;
+  height: 750px;
 }
 
 .dark-screen {
@@ -87,7 +87,7 @@ nav input:hover {
 
 .center-banner {
   position: absolute;
-  bottom: 10%;
+  bottom: 25%;
   left: 15%;
   color: #fff;
   z-index: 1;
@@ -113,6 +113,22 @@ nav input:hover {
 .center-banner #trending {
   font-size: 15px;
   margin-top: 30px;
+}
+
+.featured-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2vw;
+}
+.featured-wrapper img {
+  width: 30vw;
+}
+
+.featured-photo {
+  align-self: flex-start;
 }
 
 body {
