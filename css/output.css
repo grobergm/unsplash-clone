@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+nav a {
+  color: gray;
+}
+nav a:hover {
+  color: black;
+}
+nav input {
+  width: 25vw;
+  height: 40px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.upper-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lower-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#unsplash-icon {
+  height: 64px;
+  width: 64px;
+}
+
+.photo-of-day {
+  height: 542px;
+  background: url("../imgs/photo-of-day.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=output.css.map */
