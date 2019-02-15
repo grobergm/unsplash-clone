@@ -63,11 +63,6 @@ nav input:hover {
   width: 64px;
 }
 
-body {
-  font-size: 15px;
-  font-family: Helvetica;
-}
-
 .photo-of-day {
   background-image: url("../imgs/photo-of-day.jpg");
   background-size: cover;
@@ -118,6 +113,11 @@ body {
 .center-banner #trending {
   font-size: 15px;
   margin-top: 30px;
+}
+
+body {
+  font-size: 15px;
+  font-family: Helvetica;
 }
 
 /*# sourceMappingURL=output.css.map */

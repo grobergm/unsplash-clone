@@ -1,0 +1,51 @@
+.photo-of-day{
+  background-image:url('../imgs/photo-of-day.jpg');
+  background-size:cover;
+  background-position: center top;
+  height:542px;
+}
+
+.dark-screen{
+  position:relative;
+}
+
+.dark-screen:after{
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: block;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.center-banner{
+  position:absolute;
+  bottom:10%;
+  left:15%;
+  color:$white;
+  z-index:1;
+  h1{
+    font-size:46px;
+    margin-bottom:30px;
+  }
+  p{
+    font-size:18px;
+    margin-bottom:10px;
+  }
+  .banner-text{
+    margin-bottom:30px;
+  }
+  input{
+    width:70vw;
+    height:50px;
+    border-radius:5px;
+    font-size:18px;
+    padding-left:15px;
+  }
+  #trending{
+    font-size:15px;
+    margin-top:30px;
+  }
+}
