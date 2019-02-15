@@ -15,7 +15,7 @@ nav {
   width: 100%;
 }
 nav a {
-  color: #eee;
+  color: #999;
 }
 nav a:hover {
   color: black;
@@ -29,15 +29,26 @@ nav input {
   padding-left: 10px;
 }
 nav input:hover {
-  border: 1px solid gray;
+  border: 1px solid #999;
 }
 
 #submit-photo {
-  background-color: black;
-  height: 40px;
-  border: 1px solid #eee;
+  border: 1px solid #999;
   border-radius: 5px;
-  padding-left: 10px;
+  padding: 7px 10px;
+}
+#submit-photo:hover {
+  border-color: black;
+}
+
+#join-btn {
+  color: white;
+  border-radius: 5px;
+  background-color: #3cb46e;
+  padding: 7px 10px;
+}
+#join-btn:hover {
+  background-color: #39ac69;
 }
 
 .upper-nav, .lower-nav {
