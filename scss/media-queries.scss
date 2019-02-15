@@ -1,0 +1,19 @@
+@media screen and (max-width:991px){
+  .featured-wrapper{
+    max-height:700vw;
+    img{
+      width:47vw;
+    }
+  }
+}
+
+@media screen and (max-width:767px){
+  .featured-wrapper{
+    max-height:none;
+    margin: 0;
+    img{
+      margin:1.5vw 0 0 0;
+      width:100vw;
+    }
+  }
+}

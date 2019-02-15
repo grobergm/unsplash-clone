@@ -68,6 +68,7 @@ nav input:hover {
   background-size: cover;
   background-position: center top;
   height: 750px;
+  margin-bottom: 3vw;
 }
 
 .dark-screen {
@@ -121,13 +122,30 @@ nav input:hover {
   flex-wrap: wrap;
   align-content: space-around;
   max-height: 300vw;
-  margin-top: 3vw;
 }
 .featured-wrapper img {
   width: 30vw;
   margin: 1.25vw;
 }
 
+@media screen and (max-width: 991px) {
+  .featured-wrapper {
+    max-height: 700vw;
+  }
+  .featured-wrapper img {
+    width: 47vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .featured-wrapper {
+    max-height: none;
+    margin: 0;
+  }
+  .featured-wrapper img {
+    margin: 1.5vw 0 0 0;
+    width: 100vw;
+  }
+}
 body {
   font-size: 15px;
   font-family: Helvetica;
