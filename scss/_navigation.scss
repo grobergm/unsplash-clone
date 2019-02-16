@@ -21,15 +21,36 @@ nav{
     }
   }
 }
-#mobile-icons{
+#mobile-login{
+  display:flex;
+  text-align:center;
+  margin-bottom:15px;
+  a{
+    width:45vw;
+    margin:7px;
+  }
+}
+
+#mobile-icons, #mobile-login {
+  a{
+    display:none;
+  }
+}
+#mobile-login{
+  display:none;
+}
+div#mobile-icons{
   display:none;
   font-size:30px;
   margin:15px 0;
 }
+
 #home{
   color:black;
 }
-#submit-photo{
+
+.outline-btn{
+  text-align:center;
   border:1px solid $text-gray;
   border-radius:5px;
   padding:7px 10px;
@@ -38,12 +59,13 @@ nav{
   }
 }
 
-#join-btn{
+.join-btn{
   color:white;
   border-radius:5px;
   background-color:#3cb46e;
   padding:7px 10px;
   &:hover{
+    color:white;
     background-color: darken(#3cb46e,2%);
   }
 }

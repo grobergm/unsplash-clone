@@ -32,7 +32,25 @@ nav input:hover {
   border: 1px solid #999;
 }
 
-#mobile-icons {
+#mobile-login {
+  display: flex;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#mobile-login a {
+  width: 45vw;
+  margin: 7px;
+}
+
+#mobile-icons a, #mobile-login a {
+  display: none;
+}
+
+#mobile-login {
+  display: none;
+}
+
+div#mobile-icons {
   display: none;
   font-size: 30px;
   margin: 15px 0;
@@ -42,22 +60,24 @@ nav input:hover {
   color: black;
 }
 
-#submit-photo {
+.outline-btn {
+  text-align: center;
   border: 1px solid #999;
   border-radius: 5px;
   padding: 7px 10px;
 }
-#submit-photo:hover {
+.outline-btn:hover {
   border-color: black;
 }
 
-#join-btn {
+.join-btn {
   color: white;
   border-radius: 5px;
   background-color: #3cb46e;
   padding: 7px 10px;
 }
-#join-btn:hover {
+.join-btn:hover {
+  color: white;
   background-color: #39ac69;
 }
 
@@ -143,15 +163,6 @@ nav input:hover {
   margin: 1.25vw;
 }
 
-body {
-  font-size: 15px;
-  font-family: Helvetica;
-}
-
-#mobile-icons {
-  display: none;
-}
-
 @media screen and (max-width: 1091px) {
   #sub-title {
     display: none;
@@ -165,7 +176,7 @@ body {
     width: 47vw;
   }
 
-  #submit-photo, #title {
+  .submit-photo, #title {
     display: none;
   }
 }
@@ -174,8 +185,11 @@ body {
     display: none;
   }
 
-  #mobile-icons {
+  div#mobile-icons, div#mobile-login {
     display: flex;
+  }
+  div#mobile-icons a, div#mobile-login a {
+    display: inline;
   }
 
   .featured-wrapper {
@@ -186,6 +200,10 @@ body {
     margin: 1.5vw 0 0 0;
     width: 100vw;
   }
+}
+body {
+  font-size: 15px;
+  font-family: Helvetica;
 }
 
 /*# sourceMappingURL=output.css.map */

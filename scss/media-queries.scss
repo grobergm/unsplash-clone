@@ -12,7 +12,7 @@
       width:47vw;
     }
   }
-  #submit-photo, #title{
+  .submit-photo, #title{
     display:none;
   }
 }
@@ -21,8 +21,11 @@
   #main-nav{
     display:none;
   }
-  #mobile-icons{
-    display:flex;
+  div#mobile-icons, div#mobile-login{
+      display:flex;
+    a{
+      display:inline;
+    }
   }
   .featured-wrapper{
     max-height:none;
